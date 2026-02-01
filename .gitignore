@@ -7,9 +7,9 @@ __pycache__/
 *.pyo
 
 # PyTorch/ML artifacts
-saved_models/
-checkpoints/
-lightning_logs/
+# saved_models/
+# checkpoints/
+# lightning_logs/
 *.ckpt
 *.pth
 
