@@ -65,24 +65,3 @@ If some images are missing, the dataset currently warns and skips those entries.
 
 ---
 
-## Git / Repo
-
-- A `.gitignore` exists and excludes large artifacts by default. If you want to include `saved_models/` or `lightning_logs/`, remove those lines from `.gitignore` and add them to the repo.
-- To initialize and push to GitHub:
-```bash
-git init
-git add .
-git commit -m "Initial import"
-# add remote and push as desired
-```
-
-If you have large model files, consider using Git LFS.
-
----
-
-If you want, I can:
-- Add a CLI (`argparse`) to control resume/restart and hyperparameters,
-- Add sliding-window inference to aggregate patch predictions,
-- Add mixed-precision (AMP) training to save memory.
-
-Tell me which next step you'd like. 🚀
